@@ -96,19 +96,35 @@
             <li class="projects-item">
               <a href="#" class="projects-link">
                 <div class="projects-card-wrapper">
-                  <img
-                    srcset="
-                      ./images/desktop/portfolio-card-set/technokryak-370/technokryak-370.jpg    1x,
-                      ./images/desktop/portfolio-card-set/technokryak-370/technokryak-370@2x.jpg 2x,
-                      ./images/mobile/portfolio-card-set/technocryak-450/technocryak-450.jpg     1x,
-                      ./images/mobile/portfolio-card-set/technocryak-450/technocryak-450@2x.jpg  2x,
-                      ./images/tablet/portfolio-card-set/technokryak-354/technokryak-354.jpg     1x,
-                      ./images/tablet/portfolio-card-set/technokryak-354/technokryak-354@2x.jpg  2x
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/desktop/portfolio-card-set/technokryak-370/technokryak-370.jpg    1x,
+                        ./images/desktop/portfolio-card-set/technokryak-370/technokryak-370@2x.jpg 2x
+                      "
+                      media="(min-width=1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/portfolio-card-set/technokryak-354/technokryak-354.jpg    1x,
+                        ./images/tablet/portfolio-card-set/technokryak-354/technokryak-354@2x.jpg 2x
+                      "
+                      media="(min-width=768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/portfolio-card-set/technocryak-450/technocryak-450.jpg    1x,
+                        ./images/mobile/portfolio-card-set/technocryak-450/technocryak-450@2x.jpg 2x
+                      "
+                      media="(max-width=767px)"
+                    />
+                    <img
+                      src="./images/desktop/portfolio-card-set/technokryak-370/technokryak-370.jpg
                     "
-                    src=""
-                    alt="Технокряк"
-                    width="370"
-                  />
+                      alt="Технокряк"
+                      width="370"
+                    />
+                  </picture>
                   <p class="card-overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
