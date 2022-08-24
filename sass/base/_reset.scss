@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -23,6 +29,7 @@ img {
 }
 
 a {
+  font-style: normal;
   text-decoration: none;
 }
 

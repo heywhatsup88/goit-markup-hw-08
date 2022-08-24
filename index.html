@@ -27,7 +27,7 @@
           >
 
           <ul class="site-nav">
-            <li class="site-nav__item">
+            <li  class="site-nav__item">
               <a href="./index.html" class="site-nav__link site-nav__link_current">Студия</a>
             </li>
             <li class="site-nav__item">
@@ -36,6 +36,12 @@
             <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
           </ul>
         </nav>
+
+        <button type="button" class="mobile-menu-open" data-menu-open>
+          <svg class="mobile-menu-open__icon" width="40" height="40">
+            <use href="./images/sprite.svg#burger-icon"></use>
+          </svg>
+        </button>
 
         <ul class="contacts-list">
           <li class="contacts-list__item">
@@ -58,24 +64,53 @@
           </li>
         </ul>
       </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+            <button class="mobile-menu__close-btn" data-menu-close>
+          <svg class="mobile-menu__close-icon" width="40" height="40">
+            <use href="./images/sprite.svg#icon-close-modal"></use>
+          </svg>
+        </button>
+
+        <ul class="mobile-menu-nav">
+            <li class="mobile-menu-nav__item"><a href="./index.html" class="mobile-menu-nav__link-current"></a>Студия</li>
+            <li class="mobile-menu-nav__item"><a href="./portfolio.html" class="mobile-menu-nav__link"></a>Портфолио</li>
+            <li class="mobile-menu-nav__item"><a href="" class="mobile-menu-nav__link"></a>Контакты</li>
+          </ul>
+
+          <ul class="mobile-menu-contacts">
+            <li class="mobile-menu-contacts__item"><a href="tel:+380961111111" class="mobile-menu-contacts__link">+38 096 111 11 11</a></li>
+            <li class="mobile-menu-contacts__item"><a href="mailto:info@devstudio.com" class="mobile-menu-contacts__link">info@devstudio.com</a></li>
+          </ul>
+          
+          <ul class="mobile-menu-socials">
+            <li class="mobile-menu-socials__item"><a href="" class="mobile-menu-socials__link">Instagram</a></li>
+            <li class="mobile-menu-socials__item"><a href="" class="mobile-menu-socials__link">Twitter</a></li>
+            <li class="mobile-menu-socials__item"><a href="" class="mobile-menu-socials__link">Facebook</a></li>
+            <li class="mobile-menu-socials__item"><a href="" class="mobile-menu-socials__link">LinkedIn</a></li>
+          </ul>
+        </div>
+      
+      </div>
     </header>
 
     <main>
 
       <!-- hero -->
 
-      <section class="hero section hero-overlay">
+      <!-- <section class="hero section hero-overlay">
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="hero__button" data-modal-open>
             Заказать услугу
           </button>
         </div>
-      </section>
+      </section> -->
 
       <!-- advantages -->
 
-      <section class="advantages section">
+      <!-- <section class="advantages section">
         <div class="container">
           <h2 class="advantages__title_visually-hidden">Скрытый заголовок</h2>
           <ul class="advantages__list">
@@ -129,11 +164,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- about -->
 
-      <section class="section about">
+      <!-- <section class="section about">
         <div class="container">
           <h2 class="about__title">Чем мы занимаемся</h2>
           <ul class="about__list">
@@ -161,11 +196,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- team -->
 
-      <section class="team section">
+      <!-- <section class="team section">
         <div class="container">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list">
@@ -416,11 +451,11 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
 
     <!-- footer -->
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-address">
           <a href="./index.html" class="logo footer_addresss_logo">
@@ -580,7 +615,8 @@
         </div>
       </div>
       </div>
-    </footer>
+    </footer> -->
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
