@@ -8,15 +8,6 @@
       width: 270px;
     }
   }
-
-  .advantages__list_item {
-    &:nth-child(-n + 4) {
-      margin-right: 30px;
-    }
-    &:last-child {
-      margin-right: 0;
-    }
-  }
 }
 
 @media screen and (min-width: 768px) {

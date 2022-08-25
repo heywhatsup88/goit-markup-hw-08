@@ -9,11 +9,16 @@
 .clients-list {
   display: flex;
   gap: 30px;
-  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1199px) {
+  .clients-list {
+    flex-wrap: wrap;
+  }
 }
 
 .clients-item {
-  width: calc((100% - 4 * 15px) / 2);
+  width: 210px;
   @media screen and (min-width: 768px) {
     width: calc((100% - 6 * 15px) / 3);
   }
