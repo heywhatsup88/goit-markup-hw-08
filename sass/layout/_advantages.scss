@@ -2,6 +2,8 @@
   .advantages__list {
     display: flex;
 
+    gap: 30px;
+
     .advantages__list_item {
       width: 270px;
     }
@@ -21,9 +23,10 @@
   .advantages__list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
   }
   .advantages__list_item {
-    width: 50%;
+    width: calc((100% - 4 * 15px) / 2);
   }
 }
 
