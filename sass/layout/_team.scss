@@ -22,8 +22,10 @@
   text-align: center;
 }
 
-.team__list {
-  display: flex;
+@media screen and (min-width: 1200px) {
+  .team__list {
+    display: flex;
+  }
 }
 
 .social-list {
@@ -77,12 +79,14 @@
   align-content: center;
 }
 
-.team__list-item {
-  &:nth-child(-n + 4) {
-    margin-right: 30px;
-  }
+@media screen and (min-width: 1200px) {
+  .team__list-item {
+    &:nth-child(-n + 4) {
+      margin-right: 30px;
+    }
 
-  &:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }

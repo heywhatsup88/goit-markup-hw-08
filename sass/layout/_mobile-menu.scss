@@ -101,3 +101,7 @@
 .mobile-menu-socials {
   display: flex;
 }
+
+.site-nav .site-nav__link_current {
+  color: var(--accent-color);
+}

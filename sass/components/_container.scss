@@ -12,16 +12,9 @@
   padding-right: 15px;
 }
 
-.mobile-menu__container {
-  position: relative;
-  padding-left: 25px;
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
 @media screen and (min-width: 480px) {
   .container {
-    width: 450px;
+    width: 480px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -29,7 +22,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 738px;
+    width: 768px;
   }
 }
 
@@ -37,4 +30,11 @@
   .container {
     width: 1200px;
   }
+}
+
+.mobile-menu__container {
+  position: relative;
+  padding-left: 25px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }

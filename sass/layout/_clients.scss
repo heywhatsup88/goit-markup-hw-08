@@ -13,6 +13,8 @@
 
 .clients-item {
   width: calc((100% - 150px) / 6);
+  flex-wrap: wrap;
+  width: 210px;
 }
 
 .clients-link {

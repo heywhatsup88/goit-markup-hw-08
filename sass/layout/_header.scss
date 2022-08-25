@@ -23,31 +23,31 @@
   height: 40px;
 }
 
-// .header {
-//   padding: 24px 0;
-//   background-color: var(--background-color);
-//   border-bottom: 1px solid #ececec;
+.header {
+  padding: 24px 0;
+  background-color: var(--background-color);
+  border-bottom: 1px solid #ececec;
 
-.header_nav_logo {
-  color: #000000;
+  .header_nav_logo {
+    color: #000000;
+  }
+
+  .contacts-list__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+
+    color: var(--text-color);
+    margin-left: 0;
+  }
 }
-
-//   .contacts-list__link {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     font-weight: 500;
-//     line-height: 1.14;
-//     letter-spacing: 0.02em;
-
-//     transition-property: color;
-//     transition-duration: var(--transition-duration);
-//     transition-timing-function: var(--transition-timing-function);
-
-//     color: var(--text-color);
-//     margin-left: 0;
-//   }
-// }
 
 .logo {
   display: inline-block;
@@ -71,14 +71,14 @@
 //   position: relative;
 // }
 
-.site-nav__link {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  transition-property: color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-timing-function);
-}
+// .site-nav__link {
+//   font-weight: 500;
+//   line-height: 1.14;
+//   letter-spacing: 0.02em;
+//   transition-property: color;
+//   transition-duration: var(--transition-duration);
+//   transition-timing-function: var(--transition-timing-function);
+// }
 
 // .site-nav__link_current.site-nav__link::after {
 //   content: "";
@@ -115,9 +115,9 @@
 //   }
 // }
 
-// .site-nav .site-nav__link_current {
-//   color: var(--accent-color);
-// }
+.site-nav .site-nav__link_current {
+  color: var(--accent-color);
+}
 
 // .contacts-list {
 //   display: flex;
