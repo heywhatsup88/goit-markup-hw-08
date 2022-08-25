@@ -220,12 +220,11 @@ p {
 .clients-list {
   display: flex;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .clients-item {
-  width: calc((100% - 150px) / 6);
-  flex-wrap: wrap;
-  width: 210px;
+  width: 50%;
 }
 
 .clients-link {
@@ -467,6 +466,10 @@ p {
 }
 
 .site-nav .site-nav__link_current {
+  color: var(--accent-color);
+}
+
+.contacts-list__link:hover, .contacts-list__link:focus {
   color: var(--accent-color);
 }
 

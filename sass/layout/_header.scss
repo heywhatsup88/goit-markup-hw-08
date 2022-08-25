@@ -129,12 +129,12 @@
 //   margin-left: 30px;
 // }
 
-// .contacts-list__link {
-//   &:hover,
-//   &:focus {
-//     color: var(--accent-color);
-//   }
-// }
+.contacts-list__link {
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
 
 // .contact-icon {
 //   margin-right: 10px;
