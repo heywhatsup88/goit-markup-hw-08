@@ -501,11 +501,12 @@ p {
   fill: var(--background-color);
 }
 
-.footer-address {
-  text-align: center;
-  margin-bottom: 60px;
+@media screen and (max-width: 1199px) {
+  .footer-address {
+    text-align: center;
+    margin-bottom: 60px;
+  }
 }
-
 @media screen and (max-width: 767px) {
   .site-nav {
     display: none;
@@ -822,9 +823,32 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 528px;
   background: var(--background-color);
   transition: transform var(--transition-duration) var(--transition-timing-function);
+}
+@media screen and (max-width: 366px) {
+  .modal {
+    max-width: 450px;
+    width: calc(100% - 30px);
+  }
+}
+@media screen and (min-width: 367px) and (max-width: 767px) {
+  .modal {
+    max-width: 450px;
+    width: calc(100% - 30px);
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: calc(100% - 159px);
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 528px;
+    height: 580px;
+  }
 }
 
 .backdrop.is-hidden {
@@ -958,9 +982,27 @@ p {
   justify-content: center;
   margin-bottom: 30px;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 14px;
   color: var(--text-color);
+}
+@media screen and (min-width: 1200px) {
+  .modal-form-check-desc {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal-form-check-desc {
+    flex-wrap: wrap;
+    letter-spacing: 0.03em;
+  }
+}
+@media screen and (min-width: 367px) and (max-width: 767px) {
+  .modal-form-check-desc {
+    flex-wrap: wrap;
+    letter-spacing: 0.03em;
+  }
 }
 
 .modal-form-check-desc::before {
