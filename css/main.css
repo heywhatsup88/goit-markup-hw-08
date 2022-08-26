@@ -247,8 +247,10 @@ p {
     flex-wrap: wrap;
   }
 }
-.clients-item {
-  width: calc((100% - 60px) / 2);
+@media screen and (max-width: 767px) {
+  .clients-item {
+    width: calc((100% - 30px) / 2);
+  }
 }
 @media screen and (min-width: 768px) {
   .clients-item {
@@ -277,6 +279,11 @@ p {
 .footer {
   padding: 60px 0;
   background-color: var(--sections-color);
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    height: 252px;
+  }
 }
 
 .footer .logo {
@@ -688,6 +695,8 @@ p {
 @media screen and (min-width: 1200px) {
   .hero {
     padding: 200px;
+    max-width: 1600px;
+    margin-left: auto;
   }
 }
 

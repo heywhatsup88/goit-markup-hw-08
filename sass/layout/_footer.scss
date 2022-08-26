@@ -1,6 +1,9 @@
 .footer {
   padding: 60px 0;
   background-color: var(--sections-color);
+  @media screen and (min-width: 1200px) {
+    height: 252px;
+  }
 }
 
 .footer .logo {
