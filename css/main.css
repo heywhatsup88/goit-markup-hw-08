@@ -282,7 +282,7 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .footer {
-    height: 252px;
+    height: 265px;
   }
 }
 
@@ -352,6 +352,11 @@ p {
   text-transform: uppercase;
   color: var(--background-color);
 }
+@media screen and (min-width: 1200px) {
+  .footer-social-title {
+    text-align: left;
+  }
+}
 
 .footer-social-list {
   text-align: center;
@@ -397,6 +402,11 @@ p {
   text-transform: uppercase;
   color: var(--background-color);
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-form-text {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 768px) {

@@ -2,7 +2,7 @@
   padding: 60px 0;
   background-color: var(--sections-color);
   @media screen and (min-width: 1200px) {
-    height: 252px;
+    height: 265px;
   }
 }
 
@@ -72,6 +72,9 @@
   text-transform: uppercase;
 
   color: var(--background-color);
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .footer-social-list {
@@ -123,6 +126,9 @@
   text-transform: uppercase;
   color: var(--background-color);
   margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .footer-form {
