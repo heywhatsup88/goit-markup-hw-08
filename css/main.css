@@ -231,6 +231,7 @@ p {
 }
 .clients-item {
   width: 210px;
+  height: 92px;
 }
 @media screen and (min-width: 768px) {
   .clients-item {
@@ -1009,6 +1010,16 @@ p {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+.mobile-menu-open {
+  cursor: pointer;
+  transition-property: fill;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+.mobile-menu-open:hover, .mobile-menu-open:focus {
+  fill: var(--accent-color);
 }
 
 .mobile-menu__close-btn {
