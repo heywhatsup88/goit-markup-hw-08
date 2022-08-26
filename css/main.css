@@ -1284,6 +1284,10 @@ p {
   color: var(--accent-color);
 }
 
+.mobile-menu-contacts__item:first-child {
+  color: var(--accent-color);
+}
+
 .mobile-menu-contacts__item:hover,
 .mobile-menu-contacts__item:focus {
   color: var(--accent-color);
@@ -1334,4 +1338,12 @@ p {
 
 .mobile-menu-socials__link {
   color: inherit;
+}
+
+.mobile-menu-contacts:first-child {
+  color: var(--accent-color);
+}
+
+.mobile-menu-contacts__link-blue {
+  color: var(--accent-color);
 }/*# sourceMappingURL=main.css.map */
