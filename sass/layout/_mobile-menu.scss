@@ -30,7 +30,7 @@
 }
 
 .mobile-menu__close-btn {
-  margin-top: 30px;
+  margin-top: 10px;
   position: absolute;
   top: 10px;
   right: 15px;
@@ -123,13 +123,21 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-
   letter-spacing: 0.02em;
-
   color: var(--accent-color);
+
+  &:not(:first-child)::before {
+    content: "";
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+    width: 22px;
+    height: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
-.mobile-menu-socials__item:not(:last-child) {
+.mobile-menu-socials__item .mobile-menu-socials__item:not(:last-child) {
   margin-right: 20px;
 }
 
