@@ -1294,6 +1294,11 @@ p {
     gap: 30px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .team__list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 .mobile-menu {
   position: fixed;
   width: 100%;
