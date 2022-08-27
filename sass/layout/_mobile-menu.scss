@@ -77,6 +77,10 @@
   transition-timing-function: var(--transition-timing-function);
 }
 
+.mobile-menu-nav__link {
+  color: var(--primary-text-color);
+}
+
 .mobile-menu-nav__link-current {
   color: var(--accent-color);
 }
@@ -110,6 +114,9 @@
 
   color: #2196f3;
   margin-bottom: 32px;
+  @media screen and (min-width: 320px) and (max-width: 350px) {
+    font-size: 24px;
+  }
 }
 
 .mobile-menu-contacts__item:last-child {
@@ -121,6 +128,9 @@
   color: #757575;
 
   margin-bottom: 64px;
+  @media screen and (min-width: 320px) and (max-width: 350px) {
+    font-size: 21px;
+  }
 }
 
 .mobile-menu-socials__item {
@@ -147,6 +157,9 @@
 
 .mobile-menu-socials {
   display: flex;
+  @media screen and (min-width: 320px) {
+    flex-wrap: wrap;
+  }
 }
 
 .mobile-menu-socials__link {
