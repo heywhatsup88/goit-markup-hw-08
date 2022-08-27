@@ -38,6 +38,39 @@
       ),
       url(../../images/desktop/hero/hero-1600.jpg);
   }
+  @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
+    screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2),
+    screen and (max-width: 767px) and (min-resolution: 192dpi),
+    screen and (max-width: 767px) and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/mobile/hero/hero-480/hero-480@2x.jpg);
+  }
+  @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+    screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-width: 768px) and (min-resolution: 192dpi),
+    screen and (min-width: 768px) and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/tablet/hero/hero-768@2x.jpg);
+  }
+  @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+    screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-width: 1200px) and (min-resolution: 192dpi),
+    screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/desktop/hero/hero-1600@2x.jpg);
+  }
 }
 
 .hero__title {
@@ -73,41 +106,6 @@
     text-transform: uppercase;
   }
 }
-
-// @media screen and (min-width: 1200px) {
-//   .hero__title {
-//     margin-top: 0;
-//     margin-bottom: 30px;
-//     margin-left: auto;
-//     margin-right: auto;
-//     width: 696px;
-//     font-size: 44px;
-//     font-weight: 900;
-//     line-height: 1.3636363636;
-//     text-align: center;
-//     letter-spacing: 0.06em;
-//     text-transform: uppercase;
-//   }
-// }
-
-// @media screen and (min-width: 320px) {
-//   .hero__title {
-//     margin-left: auto;
-//     margin-right: auto;
-//     width: 360px;
-//     height: 84px;
-//     margin-top: 0;
-//     margin-bottom: 30px;
-//     white-space: pre-line;
-//     text-transform: uppercase;
-//     text-align: center;
-//     font-weight: 900;
-//     font-size: 26px;
-//     line-height: 1.6;
-//     letter-spacing: 0.06em;
-//     color: var(--background-color);
-//   }
-// }
 
 .hero .hero__button {
   cursor: pointer;
