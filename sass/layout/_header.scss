@@ -204,8 +204,10 @@
   justify-content: center;
   margin-bottom: 50px;
 
-  & .list-item:nth-child(-n + 5) {
-    margin-right: 10px;
+  @media screen and (min-width: 768px) {
+    & .list-item:nth-child(-n + 5) {
+      margin-right: 10px;
+    }
   }
 
   & .list-item:last-child {
